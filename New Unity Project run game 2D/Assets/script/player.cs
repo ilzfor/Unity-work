@@ -171,7 +171,7 @@ public class player : MonoBehaviour
         dead = true;
         ani.SetTrigger("死亡觸發");
         final.SetActive(true);
-        textTitle.text = "嫩";
+        textTitle.text = "再加油吧";
         textCurrent.text = "本次金幣數量" + coin;
         speed = 0;
         rig.velocity = Vector3.zero;
